@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 
-/* Body styles. DO NOT REMOVE OR EDIT UNLESS ABSOLUTELY NECESSARY */
-body {
+/* Body styles, it controls background, typography, and spacing */
+body 
+{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     padding: 0;
@@ -15,8 +16,9 @@ body {
     padding-top: 30px;
 }
 
-/* Disclaimer styles. DO NOT REMOVE OR EDIT UNLESS ABSOLUTELY NECESSARY */
-.disclaimer {
+/* Disclaimer banner at the top */
+.disclaimer 
+{
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,25 +31,29 @@ body {
     height: 30px;
 }
 
-/* ---- Your custom styles below ---- */
+
+
+/* ---- custom styles below ---- */
+
 /* ---- Medicines list styles ---- */
 #medicines-list-section 
 {
-    max-width: 900px;
+    max-width: 900px; /* Keeps section centered and readable */
     margin: 1rem auto;
     background: white;
     border-radius: 8px;
     padding: 1rem;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06); /* Soft card-style shadow */
 }
 
+/* Heading styling for "Available Medicines" section */
 #medicines-list-section h2 
 {
     margin-top: 0.2rem;
-    /* margin-bottom: 0.5rem reduce space below heading */
-    margin-bottom: -2rem;
+    margin-bottom: -2rem; /* fixx for excessive white space under heading */
 }
 
+/* Container for the "Refresh" button (aligned to the right) */
 #medicines-controls 
 {
     display: flex;
@@ -63,6 +69,7 @@ body {
     margin-top: 0.5rem;
 }
 
+/* Styling for error message */
 #error 
 {
     color: #7a0b0b;
@@ -73,34 +80,42 @@ body {
 }
 
 
-/*objective 3 make it more neat*/
-/* Table styling */
-table {
+
+/* Medicine Table layout */
+table 
+{
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 20px; /* Space between heading and table */
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Light shadow under table */
 }
 
-th, td {
+/* Cell spacing & border styling */
+th, td 
+{
     padding: 10px 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
-th {
+/* Table header styling */
+th 
+{
     background-color: #4CAF50;
     color: white;
 }
 
-tr:hover {
+/* Hover effect for better table readability */
+tr:hover 
+{
     background-color: #f1f1f1;
 }
 
 
 /* Form styling */
-form {
+form 
+{
     margin-top: 20px;
     background-color: #fff;
     padding: 15px;
@@ -109,13 +124,16 @@ form {
     max-width: 400px;
 }
 
-form label {
+form label 
+{
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-form input {
+/* Input field styling */
+form input 
+{
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -123,7 +141,9 @@ form input {
     border-radius: 4px;
 }
 
-form button {
+/* Submit button styling */
+form button 
+{
     padding: 10px 15px;
     background-color: #4CAF50;
     color: white;
@@ -132,15 +152,21 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
+/* Hover effect for button */
+form button:hover 
+{
     background-color: #45a049;
 }
 
-#add-medicine {
+/* Adds spacing under Add Medicine section */
+#add-medicine 
+{
     margin-bottom: 30px;
 }
 
-header, main {
+/* Centers all page content and keeps it within readable width */
+header, main 
+{
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
