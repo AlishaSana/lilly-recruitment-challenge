@@ -15,7 +15,30 @@
     </header>
     <main>
         <section id="add-medicine">
-            <h2>Add medicince</h2>
+            <h2>Add Medicine</h2>
+            <form id="add-medicine-form">
+                <label for="med-name">Medicine Name:</label>
+                <input type="text" id="med-name" name="name" required>
+                
+                <label for="med-price">Price:</label>
+                <input type="number" step="0.01" id="med-price" name="price" required>
+                
+                <button type="submit">Add Medicine</button>
+                <p id="form-message" style="color: green;"></p>
+            </form>
+        </section>
+
+        <!-- NEW: Medicines list -->
+        <section id="medicines-list-section" aria-labelledby="medicines-heading">
+            <h2 id="medicines-heading">Available medicines</h2>
+            
+            <div id="medicines-controls">
+                <button id="refresh-btn" type="button">Refresh list</button>
+            </div>
+
+            <div id="loading" aria-live="polite" hidden>Loading medicines…</div>
+            <div id="error" role="alert" hidden></div>
+            <div id="medicines-container"></div>
         </section>
     </main>
     <script src="script.js"></script>

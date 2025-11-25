@@ -30,3 +30,117 @@ body {
 }
 
 /* ---- Your custom styles below ---- */
+/* ---- Medicines list styles ---- */
+#medicines-list-section 
+{
+    max-width: 900px;
+    margin: 1rem auto;
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+#medicines-list-section h2 
+{
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem /* reduce space below heading*/
+}
+
+#medicines-controls 
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+}
+
+
+#loading 
+{
+    font-style: italic;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+#error 
+{
+    color: #7a0b0b;
+    background: #ffdada;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+
+/*objective 3 make it more neat*/
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Form styling */
+form {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#add-medicine {
+    margin-bottom: 30px;
+}
+
+header, main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
