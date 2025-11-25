@@ -44,7 +44,8 @@ body {
 #medicines-list-section h2 
 {
     margin-top: 0.2rem;
-    margin-bottom: 0.5rem /* reduce space below heading*/
+    /* margin-bottom: 0.5rem reduce space below heading */
+    margin-bottom: -2rem;
 }
 
 #medicines-controls 
