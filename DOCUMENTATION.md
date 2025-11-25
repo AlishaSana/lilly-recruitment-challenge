@@ -42,7 +42,7 @@ Initially added a notes/description of medicine but later removed the field enti
 ## Problems Faced
 *Use this space to document and discuss any issues you faced while undertaking this challenge and how you solved them. We recommend doing this proactively as you experience and resolve the issues - make sure you don't forget! (Screenshots are helpful, though not required)*.
 
-“Permission Denied” Issue When Using Baked Mode:
+“Permission Denied” Issue When Using Pre packaged script:
 When running the project in baked mode, the terminal repeatedly displayed a “permission denied” error. This stopped the build from running properly.
 The baked build directory did not have the correct execution permissions, so the system blocked the process from running.
 
@@ -76,3 +76,21 @@ The Notes field and corresponding table column were removed completely, ensuring
 
 ## Evaluation
 *How did you feel about the challenge overall? Did some parts go better than others? Did you run out of time? If you were to do this again, and were given more time, what would you do differently?*
+
+The challenge was engaging and practical, giving a good mix of frontend and backend tasks. It tested both problem-solving and attention to detail, particularly in handling edge cases like missing data or invalid inputs.
+
+Parts that went well:
+Setting up the backend and connecting it to the frontend went smoothly after resolving the initial permission issue.
+Defensive rendering of medicines in the table worked perfectly, ensuring the UI didn’t crash with missing or invalid data.
+Implementing the Add Medicine form with arrows to increase/decrease price was intuitive and improved user experience.
+
+Challenges encountered:
+Some small styling and spacing issues required careful adjustment in CSS, and highlighting invalid entries needed logical checks to work correctly.
+
+Time management:
+Most of the core objectives were completed within 50–60 minutes. Some optional improvements, like advanced reporting, were left for future enhancements.
+
+What I would do differently with more time:
+Implement the delete and update functionality fully on the frontend.
+Add real-time validation for the price field to prevent invalid entries.
+Enhance the table design further with sorting, filtering for a more robust user experience.
